@@ -1,0 +1,18 @@
+# from turtle import Turtle, Screen
+#
+#
+# tim = Turtle()
+# tim.shape("turtle")
+# tim.color("firebrick3")
+# tim.forward(100)
+# print(tim)
+#
+# my_screen = Screen()
+# my_screen.exitonclick()
+
+from prettytable import PrettyTable
+table = PrettyTable()
+table.add_column("Pokemon", ["Pikachu", "Charizard", "Squirtle"])
+table.add_column("Type", ["Electric", "Fire", "Water"])
+table.align = "c"
+print(table)
